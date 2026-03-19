@@ -56,7 +56,7 @@
             </span>
             <span>℃</span>
             <img
-              :src="`/weather-icon-S2/64/${weatherData.now?.icon}.png`"
+              :src="`./weather-icon-S2/64/${weatherData.now?.icon}.png`"
               alt="天气图标"
               v-if="weatherData.now?.icon"
             />
